@@ -42,7 +42,7 @@ Mappings:
       AMZNECSHVM: ami-acb020d5
     eu-west-2:
       AMZNECSHVM: ami-4d809829
-    us-east-1:
+    us-west-2:
       AMZNECSHVM: ami-ba722dc0
     us-east-2:
       AMZNECSHVM: ami-13af8476
@@ -271,9 +271,9 @@ Resources:
             - apigateway:HEAD
             - apigateway:OPTIONS
             Resource:
-            - arn:aws:apigateway:us-east-1::/clientcertificates/*
-            - arn:aws:apigateway:us-east-1::/domainnames/*
-            - arn:aws:apigateway:us-east-1::/apikeys/*
+            - arn:aws:apigateway:us-west-2::/clientcertificates/*
+            - arn:aws:apigateway:us-west-2::/domainnames/*
+            - arn:aws:apigateway:us-west-2::/apikeys/*
   ECSInstanceProfile:
     Type: AWS::IAM::InstanceProfile
     Properties:

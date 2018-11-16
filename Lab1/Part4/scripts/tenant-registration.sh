@@ -2,7 +2,7 @@
 echo "BUILDING TENANT REGISTRATION SERVICE"
 echo "--------------------------"
 echo 'SETTING UP ENV VARIABLES'
-export AWS_DEFAULT_REGION="us-east-1"
+export AWS_DEFAULT_REGION="us-west-2"
 export BUILD_FILE_PATH="./../app/source/tenant-registration/build.sh"
 export SERVICE_NAME="tenant-registration"
 node ./../../../scripts/expose-region.js

@@ -4,7 +4,7 @@ if(process.env.AWS_DEFAULT_REGION){
     region = process.env.AWS_DEFAULT_REGION;
 }
 else{
-    region = 'us-east-1';
+    region = 'us-west-2';
 }
 // var filePath = "./../app/source/user-manager/build.sh"
 var filePath = process.env.BUILD_FILE_PATH;

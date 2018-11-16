@@ -5,7 +5,7 @@
       "stream_name": "module-saas-bootcamp-base",
       "queue_name": "module-saas-bootcamp-base",
       "domain": "127.0.0.1",
-      "region": "us-east-1",
+      "region": "us-west-2",
       "aws_account":"",
       "port": {
         "auth": 3000,

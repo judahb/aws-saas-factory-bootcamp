@@ -9,7 +9,7 @@ aws cloudformation create-stack --stack-name StreamingServices --template-body f
 aws cloudformation wait stack-create-complete --stack-name StreamingServices
 echo "STACK CREATE COMPLETE"
 echo 'SETTING UP ENV VARIABLES'
-export AWS_DEFAULT_REGION="us-east-1"
+export AWS_DEFAULT_REGION="us-west-2"
 export BUILD_FILE_PATH="./../app/source/product-manager/build.sh"
 export SERVICE_NAME="product-manager"
 node ./../../../scripts/expose-region.js

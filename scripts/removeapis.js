@@ -1,6 +1,6 @@
 console.log('STACK CREATE');
 var aws = require('aws-sdk');
-var apigateway = new aws.APIGateway({apiVersion: '2015-07-09', region: 'us-east-1'});
+var apigateway = new aws.APIGateway({apiVersion: '2015-07-09', region: 'us-west-2'});
 var params = {
 };
 apigateway.getRestApis(params, function(err, data) {

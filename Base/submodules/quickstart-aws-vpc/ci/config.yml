@@ -13,7 +13,7 @@ global:
     - eu-west-1
     - eu-west-2
     - sa-east-1
-    - us-east-1
+    - us-west-2
     - us-east-2
     - us-west-1
     - us-west-2
@@ -43,20 +43,20 @@ tests:
     regions:
       - us-west-2
     template_file: aws-vpc.template
-  4az-us-east-1:
+  4az-us-west-2:
     parameter_input: aws-vpc-4az.json
     regions:
-      - us-east-1
+      - us-west-2
     template_file: aws-vpc.template
-  4az-complete-us-east-1:
+  4az-complete-us-west-2:
     parameter_input: aws-vpc-4az-complete.json
     regions:
-      - us-east-1
+      - us-west-2
     template_file: aws-vpc.template
-  4az-public-us-east-1:
+  4az-public-us-west-2:
     parameter_input: aws-vpc-4az-public.json
     regions:
-      - us-east-1
+      - us-west-2
     template_file: aws-vpc.template
   dedicated-us-west-1:
     parameter_input: aws-vpc-dedicated.json

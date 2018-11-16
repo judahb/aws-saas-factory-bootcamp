@@ -29,7 +29,7 @@ Parameters:
       can include numbers, lowercase letters, uppercase letters, and hyphens (-).
       It cannot start or end with a hyphen (-).
     Type: String
-    Default: 'aws-bootcamp-us-east-1'
+    Default: 'aws-bootcamp-us-west-2'
   QSS3KeyPrefix:
     Description: S3 key prefix for the Bootcamp assets. Bootcamp key prefix
       can include numbers, lowercase letters, uppercase letters, hyphens (-), and

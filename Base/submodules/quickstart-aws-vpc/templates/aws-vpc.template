@@ -414,7 +414,7 @@
                 {
                     "Ref": "AWS::Region"
                 },
-                "us-east-1"
+                "us-west-2"
             ]
         },
         "PrivateSubnetsCondition": {

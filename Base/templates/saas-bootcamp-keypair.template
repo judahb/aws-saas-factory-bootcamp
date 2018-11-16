@@ -19,7 +19,7 @@ Metadata:
         default: Key Pair Name
 Parameters:
   QSS3BucketName:
-    Default: gdengine-assets-staging.us-east-1
+    Default: gdengine-assets-staging.us-west-2
     Description: S3 bucket name for the Bootcamp assets. Bootcamp bucket name
       can include numbers, lowercase letters, uppercase letters, and hyphens (-).
       It cannot start or end with a hyphen (-).

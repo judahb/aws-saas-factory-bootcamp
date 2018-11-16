@@ -5,7 +5,7 @@ if (process.env.AWS_DEFAULT_REGION) {
     region = process.env.AWS_DEFAULT_REGION;
 }
 else {
-    region = 'us-east-1';
+    region = 'us-west-2';
 }
 var filePath;
 var kinesis = new aws.Kinesis({apiVersion: '2013-12-02', region: region});

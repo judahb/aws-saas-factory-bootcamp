@@ -26,7 +26,7 @@ Parameters:
     Type: String
     Description: Baseline "services" stack name to get exports from
   QSS3BucketName:
-    Default: aws-bootcamp-us-east-1
+    Default: aws-bootcamp-us-west-2
     Description: S3 bucket name for the Bootcamp assets. Bootcamp bucket name
       can include numbers, lowercase letters, uppercase letters, and hyphens (-).
       It cannot start or end with a hyphen (-).

@@ -6,7 +6,7 @@ if(process.env.AWS_DEFAULT_REGION){
     region = process.env.AWS_DEFAULT_REGION;
 }
 else{
-    region = 'us-east-1';
+    region = 'us-west-2';
 }
 // var myRepo;
 var cloudformation = new aws.CloudFormation({apiVersion: '2010-05-15', region: region});

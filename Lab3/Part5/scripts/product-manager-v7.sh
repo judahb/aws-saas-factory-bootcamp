@@ -2,7 +2,7 @@
 echo "BUILDING PRODUCT MANAGER V7 - VERIFY TENANT SCOPED CREDENTIALS"
 echo "--------------------------"
 echo 'SETTING UP ENV VARIABLES'
-export AWS_DEFAULT_REGION="us-east-1"
+export AWS_DEFAULT_REGION="us-west-2"
 export BUILD_FILE_PATH="./../app/source/product-manager/build.sh"
 export SERVICE_NAME="product-manager"
 node ./../../../scripts/expose-region.js
